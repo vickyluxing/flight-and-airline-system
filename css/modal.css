@@ -1,0 +1,111 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 45%; 
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ratings {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.glyphicon-star, .glyphicon-star-empty {
+    color: orange;
+}
+
+.ratings > p.pull-right {
+    cursor: pointer;
+}
+
+#star1, #star2, #star3, #star4, #star5 {
+    font-size: 2em;
+}
+
+.review {
+    padding: 15px 10px;
+    border-top: 1px dotted #a6a6a6;
+}
+
+.review-user {
+    font-size: 16px;
+    margin-right: 28px;
+    color: #3993cc;
+}
+
+.review-content {
+    color: #595959;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.input-box {
+    margin-top: 12px;
+    border-top: 2px solid #a6a6a6;
+    padding: 20px 15px 0px 15px;
+}
+
+.input-top {
+    display: table;
+}
+
+.rate-label{
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+.review-input textarea, .review-input button {
+    margin: 15px 0px 0px 0px;
+}
+
+.sharebutton {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+
+.sharebutton-t {
+    position: absolute;
+    right: 25px;
+    top: 55px;
+}
+
+.sharebutton-g {
+    position: absolute;
+    right: 25px;
+    top: 100px;
+}
+
